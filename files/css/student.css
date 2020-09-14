@@ -1,0 +1,228 @@
+body {
+    background-color: #f2f7fb;
+    font-size: .9375rem;
+    overflow-x: hidden;
+    color: #333;
+    font-family: "Open Sans",sans-serif;
+    background-image: linear-gradient(rgba(255,255,255,0.7) 240px, #f2f7fb 0%);
+    margin: 0;
+
+}
+.img-radius {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(43,43,43,0.2);
+    box-shadow: 0 5px 10px 0 rgba(43,43,43,0.2);
+}
+
+.dropdown-danger, .dropdown-default, .dropdown-disabled, .dropdown-info, .dropdown-inverse, .dropdown-primary, .dropdown-success, .dropdown-warning, .dropdown-warning {
+    display: inline-block;
+    position: relative;
+}
+.pcoded .pcoded-overlay-box {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+    overflow: hidden;
+}
+.pcoded .pcoded-container {
+    position: relative;
+}
+.pcoded .pcoded-header {
+    background: #fff;
+}
+.header-navbar {
+    min-height: 70px;
+    padding: 0;
+}
+.pcoded .pcoded-header {
+    width: 100%;
+    z-index: 1029;
+    position: relative;
+    display: block;
+    font-family: "Quicksand",sans-serif;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(43,43,43,0.1);
+    box-shadow: 0 2px 4px 0 rgba(43,43,43,0.1);
+}
+.pcoded .pcoded-header{
+    position: fixed;
+    top: 0;
+    z-index: 1028;
+}
+.header-navbar .navbar-wrapper .navbar-logo {
+    background: #263544;
+}
+.header-navbar .navbar-wrapper .navbar-logo {
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+    height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 250px;
+    padding: 20px 10px;
+    -webkit-box-shadow: 0 4px 4px -4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 4px -4px rgba(0,0,0,0.1);
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-navbar .navbar-wrapper .navbar-container .nav-right {
+    float: right;
+}
+.navbar .navbar-wrapper .navbar-container .nav-right li {
+    float: left;
+    line-height: 4.4;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+.header-navbar .navbar-wrapper .navbar-container .nav-right .user-profile i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+.feather {
+    font-family: 'feather' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.header-navbar .navbar-wrapper .navbar-container .header-notification {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    z-index: 99;
+    position: relative;
+}
+.header-navbar .navbar-wrapper .navbar-container .nav-left li, .header-navbar .navbar-wrapper .navbar-container .nav-right li {
+    float: left;
+    line-height: 4.4;
+    padding: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+.header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification {
+    width: 17em;
+}
+.header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li {
+    border-top: none;
+    padding: 0.7em 20px;
+}
+.header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification li, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li {
+    line-height: initial;
+    padding: 1em 20px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification {
+    background: #fff;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    border-radius: 5px;
+    border: none;
+    opacity: 1;
+    position: absolute;
+    left: auto;
+    right: -15px;
+    visibility: visible;
+    overflow: visible;
+    width: 24rem;
+    padding: 15px 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+.show>.dropdown-menu {
+    overflow: hidden;
+}
+/* .dropdown-menu.show {
+    display: block;
+} */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification li:first-child {
+    padding: 0.7em 20px;
+}
+.pcoded .pcoded-wrapper, .pcoded .pcoded-main-container {
+    position: relative;
+    margin: 0 auto;
+}
+.pcoded-main-container {
+    clear: both;
+}
+.pcoded .pcoded-navbar 
+{
+    top: 70px;
+    position: fixed;
+}
+.pcoded.pcoded-navbar {
+    z-index: 1027;
+    height: 100%;
+    display: block;
+    font-family: "Quicksand",sans-serif;
+}
+.pcoded .pcoded-navbar .nav-list {
+    overflow: hidden;
+    height: 100%;
+    border-radius: 0 0 0 0;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(43,43,43,0.2);
+    box-shadow: 0 2px 15px 0 rgba(43,43,43,0.2);
+}
+.pcoded .pcoded-navbar .nav-user, .pcoded .pcoded-navbar .pcoded-inner-navbar {
+    background-color: #263544;
+}
+.pcoded .pcoded-navbar .pcoded-item {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.pcoded .pcoded-navbar .pcoded-item>li {
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.pcoded[theme-layout="vertical"] .pcoded-navbar[navbar-theme="theme1"][active-item-theme="theme1"] .pcoded-item>li.active>a .pcoded-micon, .pcoded[theme-layout="vertical"] .pcoded-navbar[navbar-theme="theme1"][active-item-theme="theme1"] .pcoded-item>li.pcoded-trigger>a .pcoded-micon {
+    color: #b7c0cd;
+}
